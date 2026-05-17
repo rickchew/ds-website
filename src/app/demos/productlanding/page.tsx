@@ -20,7 +20,6 @@ const page = () => {
           showContactUs: true,
           showDocs: true,
         }}
-        darkButton={{ text: 'Buy Now!', size: 'sm' }}
       />
       <main>
         <Hero />

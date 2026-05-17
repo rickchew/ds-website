@@ -19,7 +19,7 @@ const ShopGrid = () => {
   const { width } = useViewPort()
   return (
     <>
-      <TopNavigationBar showSearchInput showShoppingCart menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
+      <TopNavigationBar menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
 
       <main>
       <section className="pb-5 pb-sm-7">

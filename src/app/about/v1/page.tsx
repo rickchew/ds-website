@@ -17,8 +17,6 @@ const page = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
         data-bs-theme="dark"
       />
       <main>

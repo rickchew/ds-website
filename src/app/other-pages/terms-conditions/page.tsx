@@ -12,8 +12,6 @@ const TermsNConditions = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
       />
       <main>
         <Details />

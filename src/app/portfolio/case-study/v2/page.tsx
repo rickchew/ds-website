@@ -17,7 +17,7 @@ import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 const casestydyv2 = () => {
   return (
     <>
-      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} showSignUp showBuyNow />
+      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} />
 
       <main>
         <section className="pt-xl-9">

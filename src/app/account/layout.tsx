@@ -17,7 +17,7 @@ const AccountLayout = ({ children }: ChildrenType) => {
   const { isTrue: isOffcanvasOpen, toggle: toggleOffcanvas } = useToggle()
   return (
     <>
-      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} showSignUp showBuyNow />
+      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} />
       <main>
         <section key={width} className="pt-sm-7">
           <Container className="pt-3 pt-xl-5">

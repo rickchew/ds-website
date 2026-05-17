@@ -19,7 +19,6 @@ const page = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        darkButton={{ text: 'Get Application!', size: 'sm' }}
       />
       <main>
         <Hero />

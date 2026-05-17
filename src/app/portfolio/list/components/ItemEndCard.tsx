@@ -10,7 +10,7 @@ const ItemEndCard = ({ categories, clientLogo, description, image, title, year, 
       <Row className="g-xl-6 align-items-center">
         <Col lg={6} className="order-2">
           <CardBody className="text-lg-end h-100 px-0 p-xl-5">
-            <Image src={clientLogo} className="h-30px mb-3 mb-lg-4" width={162} alt="Client-img" />
+            <Image src={clientLogo} className="h-30px mb-3 mb-lg-4" width={162} alt="Client-img" style={{ width: 'auto' }} />
             <CardTitle as={'h4'}>{title}</CardTitle>
             <CardText as={'p'} className="mb-3 mb-lg-4">
               {description}

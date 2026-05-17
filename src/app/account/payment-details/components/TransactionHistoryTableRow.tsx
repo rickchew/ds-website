@@ -32,7 +32,7 @@ const TransactionHistoryTableRow = ({ amount, date, reference, status, number, t
         <Link href="">{reference}</Link>
       </td>
       <td>
-        <Image src={isVisa ? visaCard : masterCard} className="h-20px" alt='' width={31} />
+        <Image src={isVisa ? visaCard : masterCard} className="h-20px" alt='' width={31} style={{ width: 'auto' }} />
         <span className="ms-2">
           ****{number}
         </span>

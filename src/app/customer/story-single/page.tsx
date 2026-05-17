@@ -14,7 +14,6 @@ const page = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showBuyNow
       />
       <main>
         <Hero />

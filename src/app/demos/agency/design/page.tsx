@@ -15,7 +15,6 @@ const page = () => {
       <TopNavigationBar
         menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }}
         navClassName="px-lg-5"
-        darkButton={{ text: "Let's Connect" }}
         containerFluid
         data-bs-theme="dark"
       />

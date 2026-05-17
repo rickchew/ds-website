@@ -19,8 +19,6 @@ const page = () => {
           showResourceMenu: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
       />
       <main>
         <Hero />

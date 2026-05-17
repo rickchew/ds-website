@@ -14,8 +14,6 @@ const HelpDetail = () => {
           showDocs: true,
           ulClassName: 'mx-auto'
         }}
-        showSignUp
-        showBuyNow
       />
 
       <main>

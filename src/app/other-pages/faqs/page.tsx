@@ -13,8 +13,6 @@ const FAQPage = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
       />
       <main>
         <Hero />

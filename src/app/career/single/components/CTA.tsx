@@ -22,7 +22,7 @@ const CTA = () => {
         </svg>
       </figure>
       <div className="position-absolute end-0 bottom-0 me-sm-5 d-none d-md-block">
-        <Image src={ctaVector} className="h-200px" alt="vector-img" width={162} />
+        <Image src={ctaVector} className="h-200px" alt="vector-img" width={162} style={{ width: 'auto' }} />
       </div>
       <Container className="position-relative">
         <Row className="align-items-center">

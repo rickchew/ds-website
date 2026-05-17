@@ -12,7 +12,7 @@ import TopNavigationBar from '@/components/topbar/TopNavigationBar'
 const page = () => {
   return (
     <>
-      <TopNavigationBar showSearchInput showShoppingCart menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
+      <TopNavigationBar menuProps={{ showContactUs: true, ulClassName: 'ms-xl-5' }} />
 
       <main>
         <Hero />

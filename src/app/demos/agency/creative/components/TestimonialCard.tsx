@@ -27,7 +27,7 @@ const TestimonialCard = ({ testimonial }: TestimonialCardPropType) => {
           </div>
         </div>
 
-        {testimonial.user.company?.image && <Image src={testimonial.user.company?.image} width={143} className="h-40px mt-3 mt-sm-0" alt="" />}
+        {testimonial.user.company?.image && <Image src={testimonial.user.company?.image} width={143} className="h-40px mt-3 mt-sm-0" alt="" style={{ width: 'auto' }} />}
       </div>
     </>
   )

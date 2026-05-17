@@ -35,10 +35,10 @@ const CTA = () => {
       <Container>
         <div className="bg-dark rounded position-relative overflow-hidden p-4 p-sm-7">
           <div className="position-absolute top-0 start-0 mt-n8 mt-xl-n5 d-none d-md-block">
-            <Image src={decorationImg5} alt="" className="rotate-33 h-200px" />
+            <Image src={decorationImg5} alt="" className="rotate-33 h-200px" style={{ width: 'auto' }} />
           </div>
           <div className="position-absolute end-0 bottom-0 d-none d-lg-block">
-            <Image src={ctaVector} alt="" className="h-200px h-xl-300px" />
+            <Image src={ctaVector} alt="" className="h-200px h-xl-300px" style={{ width: 'auto' }} />
           </div>
           <Row className="g-4 position-relative">
             <Col lg={10} xl={7} className="mx-auto text-center">

@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials'
 const page = () => {
   return (
     <>
-      <TopNavigationBar showSignUp showBuyNow menuProps={{ ulClassName: 'mx-auto', showResourceMenu: true, showContactUs: true }} />
+      <TopNavigationBar menuProps={{ ulClassName: 'mx-auto', showResourceMenu: true, showContactUs: true }} />
       <main>
         <Hero />
         <Services />

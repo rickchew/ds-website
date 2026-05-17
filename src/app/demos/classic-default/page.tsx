@@ -18,8 +18,6 @@ const page = () => {
           showContactUs: true,
           ulClassName: 'mx-auto',
         }}
-        showBuyNow
-        showSignUp
       />
       <main>
         <Hero />

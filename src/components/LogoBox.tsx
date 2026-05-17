@@ -1,25 +1,17 @@
+import Image from 'next/image'
 import { NavbarBrand } from 'react-bootstrap'
-import { BsRocketTakeoff } from 'react-icons/bs'
+import logoDark from '@/assets/images/logo-dark.png'
+import logoLight from '@/assets/images/logo-light.png'
 
 type LogoBoxProps = {
   className?: string
-  smallIcon?: boolean
-  imageClassName?: string
 }
 
-// Text-based wordmark used until Rick supplies the SVG lockup (see docs/brief.md "Still outstanding").
-// Format: rocket icon + "design" (light) + "space" (bold).
-const LogoBox = ({ className, smallIcon }: LogoBoxProps) => {
-  if (smallIcon) {
-    return <BsRocketTakeoff className={className ?? ''} size={28} />
-  }
+const LogoBox = ({ className }: LogoBoxProps) => {
   return (
-    <NavbarBrand className={`d-inline-flex align-items-center gap-2 ${className ?? ''}`} href="/">
-      <BsRocketTakeoff size={22} className="text-primary" />
-      <span className="fs-4 lh-1 heading-color">
-        <span className="fw-light">design</span>
-        <span className="fw-bold">space</span>
-      </span>
+    <NavbarBrand className={`d-inline-flex align-items-center ${className ?? ''}`} href="/">
+      <Image src={logoDark} alt="Design Space" height={28} style={{ width: 'auto' }} className="light-mode-item navbar-brand-item" />
+      <Image src={logoLight} alt="Design Space" height={28} style={{ width: 'auto' }} className="dark-mode-item navbar-brand-item" />
     </NavbarBrand>
   )
 }

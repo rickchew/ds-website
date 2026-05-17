@@ -169,10 +169,10 @@ const Hero = () => {
             </div>
 
             <div className="d-inline-block card card-body shadow rounded-4 position-absolute end-0 top-0 p-3 me-lg-n3 me-xxl-n7 mt-n5 d-none d-sm-block">
-              <Image src={trustPilot} className="light-mode-item h-20px mb-2" alt="Client-img" width={80} />
-              <Image src={trustPilotLight} className="dark-mode-item h-20px mb-2" alt="Client-img" width={80} />
+              <Image src={trustPilot} className="light-mode-item h-20px mb-2" alt="Client-img" width={80} style={{ width: 'auto' }} />
+              <Image src={trustPilotLight} className="dark-mode-item h-20px mb-2" alt="Client-img" width={80} style={{ width: 'auto' }} />
               <div className="d-flex align-items-center">
-                <Image src={trustPilotStar} className="h-30px" alt="rating-img" width={160} />
+                <Image src={trustPilotStar} className="h-30px" alt="rating-img" width={160} style={{ width: 'auto' }} />
                 <h6 className="font-base fw-bold ms-1 mb-0">4.8/5.0</h6>
               </div>
               <p className="small mb-0 mt-2">Reviewed by 365 users</p>

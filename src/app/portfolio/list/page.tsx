@@ -16,7 +16,7 @@ import Image from 'next/image'
 const PortfolioList = () => {
   return (
     <>
-      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} showSignUp showBuyNow />
+      <TopNavigationBar menuProps={{ showContactUs: true, showDocs: true, ulClassName: 'mx-auto' }} />
 
       <main>
         <section className="pt-lg-8">
@@ -89,7 +89,7 @@ const PortfolioList = () => {
               </figure>
 
               <div className="position-absolute end-0 bottom-0 me-sm-5">
-                <Image src={ctaVectorImg} className="h-200px" width={162} alt="vector-img" />
+                <Image src={ctaVectorImg} className="h-200px" width={162} alt="vector-img" style={{ width: 'auto' }} />
               </div>
               <Row className="g-4 position-relative">
                 <Col lg={7} className="mx-auto text-center">

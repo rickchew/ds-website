@@ -13,8 +13,6 @@ const error404 = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
       />
 
       <main>

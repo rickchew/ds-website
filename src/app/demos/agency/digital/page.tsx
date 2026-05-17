@@ -16,8 +16,6 @@ const page = () => (
     <TopNavigationBar
       menuProps={{ showContactUs: true, ulClassName: 'mx-auto' }}
       navClassName="px-lg-5"
-      darkButton={{ text: 'Start a Project' }}
-      showFloatingSearch
       containerFluid
       data-bs-theme="dark"
     />

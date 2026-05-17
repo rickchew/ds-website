@@ -14,8 +14,6 @@ const Pricing = () => {
           showDocs: true,
           ulClassName: 'mx-auto',
         }}
-        showSignUp
-        showBuyNow
         data-bs-theme="dark"
       />
 

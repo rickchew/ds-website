@@ -13,8 +13,6 @@ const page = () => {
   return (
     <>
       <TopNavigationBar
-        showSignUp
-        showBuyNow
         menuProps={{
           showContactUs: true,
           showResourceMenu: true,

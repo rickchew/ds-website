@@ -15,7 +15,7 @@ const ItemStartCard = ({ categories, clientLogo, description, image, title, year
         </Col>
         <Col lg={6}>
           <CardBody className="h-100 px-0 p-xl-5">
-            <Image src={clientLogo} className="h-30px mb-3 mb-lg-4" width={141} alt="Client-img" />
+            <Image src={clientLogo} className="h-30px mb-3 mb-lg-4" width={141} alt="Client-img" style={{ width: 'auto' }} />
             <CardTitle as={'h4'}>{title}</CardTitle>
             <CardText as={'p'} className="mb-3 mb-lg-4">
               {description}
