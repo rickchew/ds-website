@@ -11,7 +11,7 @@ const PageHeading = ({ heading, subHeading }: PageHeadingProps) => {
   return (
     <>
       <Link href="">
-        <LogoBox className="h-50px mb-4" smallIcon />
+        <LogoBox className="h-50px mb-4" />
       </Link>
       <h2 className="mb-0">{heading}</h2>
       <p className="mb-0">{subHeading}</p>
