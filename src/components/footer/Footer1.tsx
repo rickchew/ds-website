@@ -21,7 +21,7 @@ const Footer1 = () => {
       <Container className="position-relative mt-5">
         <Row className="g-4 justify-content-between">
           <Col lg={3}>
-            <LogoBox imageClassName="h-40px" className="me-0" />
+            <LogoBox className="me-0" />
 
             <p className="mt-4 mb-2">
               A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate website.

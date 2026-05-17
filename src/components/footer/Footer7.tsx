@@ -12,7 +12,7 @@ const Footer7 = () => {
           <div className="bg-dark rounded position-relative p-4 p-sm-6 mb-3 mb-sm-5" data-bs-theme="dark">
             <Row className="mx-auto">
               <Col lg={8} className="mx-auto text-center px-0">
-                <LogoBox imageClassName="h-60px" />
+                <LogoBox />
 
                 <p className="mt-4">
                   A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate <br /> website.

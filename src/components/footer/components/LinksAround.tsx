@@ -7,7 +7,7 @@ const LinksAround = () => {
   return (
     <Row className="g-4 justify-content-between">
       <Col lg={5}>
-        <LogoBox imageClassName="h-40px" />
+        <LogoBox />
 
         <p className="mt-4 mb-2">A Bootstrap theme that&apos;s both stylish and functional, perfect for any type of technology or corporate website.</p>
         <ul className="list-inline mb-0 mt-4">

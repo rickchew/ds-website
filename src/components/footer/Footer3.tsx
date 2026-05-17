@@ -10,7 +10,7 @@ const Footer3 = () => {
       <Container className="position-relative mt-5">
         <Row className="g-4">
           <Col xl={3} className="text-lg-center text-xl-start mb-4 mb-xl-0">
-            <LogoBox imageClassName="h-40px" />
+            <LogoBox />
           </Col>
 
           <Col xs={6} md={4} lg={5} xl={4}>
